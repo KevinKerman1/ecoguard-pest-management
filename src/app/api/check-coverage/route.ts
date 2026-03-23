@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { findOfficeByZip, offices } from "@/data/service-areas";
 
-const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY || "AIzaSyC1kE3Yy9iw-m85zi0Q81plI6XOrOpRMp8";
+const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY || "AIzaSyDy0kj8bh1GXyznQUyVHwPWCQOOM2KEUEs";
 
 interface GeocodeResult {
   address_components: Array<{
